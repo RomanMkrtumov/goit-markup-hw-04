@@ -429,4 +429,14 @@ a {
   max-width: 264px;
 }
 
+.social-name {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 /*--------------------------- FOOTER END ------------------------*/
