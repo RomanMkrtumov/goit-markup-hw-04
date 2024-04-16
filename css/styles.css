@@ -144,9 +144,21 @@ a {
 
 /*--------------------------- MAIN-SECTION (1) ------------------------*/
 .main-section {
+  max-width: 1440px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/peopleoffice1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #2e2f42;
-  height: 600px;
   padding: 188px 0;
+  margin: 0 auto;
+
+
+  /* background-color: #2e2f42;
+  height: 600px;
+  padding: 188px 0; */
 }
 
 .main-title {
@@ -187,6 +199,13 @@ a {
 .main-title-btn:focus {
   background-color: #404bbf;
 }
+
+/* new cod */
+
+.section-main {
+  width: 1440px;
+}
+
 
 /*--------------------------- MAIN-SECTION (1) END ------------------------*/
 
