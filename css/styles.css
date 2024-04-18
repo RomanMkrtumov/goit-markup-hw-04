@@ -282,61 +282,63 @@ a {
 /*--------------------------- ADVANTAGES SECTION (2) END ------------------------*/
 
 /*--------------------------- TEAM SECTION (3) ------------------------*/
-.team {
+.section-ourteam {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
-.team-title {
-  text-transform: capitalize;
+.ourteam-container-list {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.ourteam-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
 }
 
-.team-list {
+.ourteam-ul {
   display: flex;
   gap: 24px;
-
+  text-align: center;
+  padding-left: 0;
+  margin: 0;
 }
 
-.team-list-div {
-  padding: 32px 0;
-}
-
-.team-list-item {
-  border-radius: 0px 0px 4px 4px;
+.section-list {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-list-img {
-  padding: 32px 16px
-}
-
-.team-list-title {
+.person-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+  text-align: center;
   margin-bottom: 8px;
 }
 
-.team-list-text {
+.job-title {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
   text-align: center;
 }
 
-/* new  code */
-
-.icons-contacts {
+.icons-list {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -346,12 +348,12 @@ a {
   padding-left: 0;
 }
 
-.icons-team {
+.icons-item {
   width: 40px;
   height: 40px;
 }
 
-.icons-a {
+.icons-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -363,15 +365,14 @@ a {
   transition-property: background-color;
 }
 
-.team-icons {
+.icons-icons {
   fill: #f4f4fd;
 }
 
-.icons-a:hover,
-.icons-a:focus {
+.icons-link:hover,
+.icons-link:focus {
   background-color: #404bbf;
 }
-
 
 /*--------------------------- TEAM SECTION (3) END ------------------------*/
 
